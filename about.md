@@ -6,10 +6,6 @@ header-img: "img/green.jpg"
 ---
 
 
-<center>
-    <p><img src="img/green.jpg" align="center"></p>
-</center>
-
 我是仉小军，仉不知道怎么读的话，快去查字典吧。
 
 
