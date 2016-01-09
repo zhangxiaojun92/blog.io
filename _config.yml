@@ -16,12 +16,12 @@ owner:
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:  xiaojun
+douban_username:  
 twitter_username: 
-github_username: xiaojun
+github_username: zhangxiaojun92
 facebook_username: 
-weibo_username: xiaojun 
-zhihu_username: 仉小军
+weibo_username:  
+zhihu_username: zhang-xiao-jun-68
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -45,16 +45,16 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CnFeat"
+      author: "xiaojun"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : cnfeat
+    short_name : xiaojun
   disqus :
-      short_name : cnfeat
+      short_name : xiaojun
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
