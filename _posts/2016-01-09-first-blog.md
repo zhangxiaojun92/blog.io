@@ -1,12 +1,11 @@
-	---
-	layout: post
-	title: 第一篇博客
-	date: 2016-01-09
-	categories: blog
-	tags: [随笔]
-	description: 开头
-
-	---
+---
+layout: post
+title: 第一篇博客
+date: 2016-01-09
+categories: blog
+tags: [随笔]
+description: 开头
+---
 
 很喜欢peace and love这句话，于是干脆申请了相关的域名，算是希望自己能达到这种境界吧。
 博客流行的时候我还在高中闷头学习，到了大学用的都是人人 微博 朋友圈等社交网络，和他们相比，感觉博客还是更能让人多写点东西，而不是随口发泄下情绪。
