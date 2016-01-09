@@ -14,7 +14,7 @@ header-img: "img/green.jpg"
 
 
 ###致谢
-博客是根据 陈素封的教程(http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)搭建的
+博客是根据 陈素封的[教程](http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)搭建的
 
 
 
