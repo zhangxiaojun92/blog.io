@@ -1,37 +1,38 @@
 # Site settings
-title: 读立写生
+title: 一只努力的摩羯
 header-img: "img/facebook.jpg"
 tagline: "cn"  
-description: "陈素封|读而立·写而生"  
+description: "仉小军|读而立·写而生"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://xiaojunpeaceandlove.com"  
 
 # About/contact
 owner: 
-  name: " CnFeat"
-  email: CnFeat@gmail.com
-  bio: "写就是写的报酬"
+  name: " XIAOJUN"
+  email: zhangxiaojun92@gmail.com
+  bio: "哈哈"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
+douban_username:  xiaojun
+twitter_username: 
+github_username: xiaojun
 facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: feat
+weibo_username: xiaojun 
+zhihu_username: 仉小军
 
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
+gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-relative_permalinks: true
+#relative_permalinks: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
