@@ -1,0 +1,31 @@
+实习招募：                                 
+【java岗位职责】
+1、负责维护/开发公司产品的API接口项目和管理平台等项目； 
+2、负责bug解决、功能开发、系统升级等； 
+3、负责内部技术部门合作的沟通、接口的调用和代码的实现；
+【任职要求】
+1. 精通面向对象设计思想，具有扎实的Java编程功底和良好的编码规范 
+2. 精通项目开发过程中的各个阶段的任务及其输出物 
+3. 熟悉Spring、SpringMVC、Hibernate、MyBatic等框架 
+4. 熟悉Apache Shiro权限管理框架
+5. 熟悉Tomcat、nginx、apache等多种应用和WEB服务器的配置 
+6. 有丰富的数据库设计经验，精通sql语言，并熟悉Mysql数据库系统及数据库调优(有集群处理和优化经验加分) 
+7. 熟悉HTML语言、JavaScript脚本语言、XML语言 ，了解当前流行的javascript开源框架。                    
+【实习待遇】
+根据开发经验和学习能力，300-800/天，一周不少于4天。欢迎应聘全职，20k/月。
+【实习地点】
+中关村
+【简历接收邮箱】
+welcome@ofo.so
+【公司简介】
+ofo团队成立一年，成员毕业于清华、港科大、北大、北航等，目前完成2轮融资，规模30人，行业是智能硬件+共享出行。
+
+各位同学，我是软研130的仉小军。
+我有个很好的朋友托我给他们家创业公司介绍点人，我了解了下，这公司刚刚创业，老板人年轻有活力，公司氛围很好，实习工资给的很很高，最近招了挺多比较牛的人，应该能学到知识。
+打扰各位了。
+
+
+1)	??:Sales of different commodities in a CVS has some consistent rules, but also owns lots of inconsistent behavious. 
+Using data of commodities in a CVS could not get rid of the impact of the inconsistent behavious.
+
+The most common method to predict retail sale is to build a single model for total sales data. 
