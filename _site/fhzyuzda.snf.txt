@@ -1,0 +1,21 @@
+﻿Revert "wudaoying"
+
+This reverts commit a959f9caab3cb5c386b009157e8a04aa7a819c68.
+
+# Conflicts:
+#	_posts/2016-03-03-五道营美食整理.md
+#	_site/feed.xml
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# You are currently reverting commit a959f9c.
+#
+# Changes to be committed:
+#	modified:   "_posts/2016-03-02-\347\256\255\346\211\243\351\225\277\345\237\216\346\224\273\347\225\245.md"
+#	modified:   "_site/blog/2016/03/02/\347\256\255\346\211\243\351\225\277\345\237\216\346\224\273\347\225\245/index.html"
+#	modified:   _site/feed.xml
+#
+
