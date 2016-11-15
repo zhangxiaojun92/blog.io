@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="仉小军|读而立·写而生">
+
+    <title>Map - 一只努力的摩羯</title>
+
+    <link rel="canonical" href="http://localhost:4000/map/">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">一只努力的摩羯</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+                <li>
+                    <a href="/archive/">Archive</a>
+                </li>
+                
+                <li>
+                    <a href="/map/">Map</a>
+                </li>
+                
+                <li>
+                    <a href="/milestone/">milestone</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/semantic.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Map</h1>
+                    <hr class="small">
+                    <span class="subheading">寻找大众点评上我的收藏</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<link rel="stylesheet" href="/css/backtop.css">  <!-- Back Top -->
+<script type="text/javascript" src="/js/backtop.js"></script>  <!-- Back Top -->
+
+<div id="back-top">
+  <a href="#top" title="回到顶部"></a>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+    <title>大众点评收藏</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/jquery.range.css" />
+    <script src="http://cache.amap.com/lbs/static/jquery-1.9.1.js"></script>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.3&amp;key=22d3816e107f199992666d6412fa0691&amp;plugin=AMap.ArrivalRange,AMap.Scale,AMap.Geocoder,AMap.Transfer,AMap.Autocomplete"></script>
+    <script src="http://cache.amap.com/lbs/static/jquery.range.js"></script>
+    <style>
+    .control-panel {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    .control-entry {
+        width: 280px;
+        background-color: rgba(119, 136, 153, 0.8);
+        font-family: fantasy, sans-serif;
+        text-align: left;
+        color: white;
+        overflow: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .control-input {
+        margin-left: 120px;
+    }
+
+    .control-input input[type="text"] {
+        width: 160px;
+    }
+
+    .control-panel label {
+        float: left;
+        width: 120px;
+    }
+
+    #transfer-panel {
+        position: absolute;
+        background-color: white;
+        max-height: 80%;
+        overflow-y: auto;
+        top: 30px;
+        left: 20px;
+        width: 250px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div class="control-panel">
+        <div class="control-entry">
+            <label>输入目的地点：</label>
+            <div class="control-input">
+                <input id="work-location" type="text" />
+            </div>
+        </div>
+        <div class="control-entry">
+            <label>导入餐厅文件：</label>
+            <div class="control-input">
+                <input type="file" name="file" onchange="importRentInfo(this)" />
+            </div>
+        </div>
+    </div>
+    <div id="transfer-panel"></div>
+    <script>
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        zoomEnable: true,
+        center: [116.397428, 39.90923],
+        zoom: 11
+    });
+    var scale = new AMap.Scale();
+    map.addControl(scale);
+
+    var arrivalRange = new AMap.ArrivalRange();
+    var x, y, t, vehicle = "SUBWAY,BUS";
+    var workAddress, workMarker;
+    var rentMarkerArray = [];
+    var polygonArray = [];
+    var amapTransfer;
+
+    var infoWindow = new AMap.InfoWindow({
+        offset: new AMap.Pixel(0, -30)
+    });
+
+    var auto = new AMap.Autocomplete({
+        input: "work-location"
+    });
+    AMap.event.addListener(auto, "select", workLocationSelected);
+
+    function importRentInfo(fileInfo) {
+        var file = fileInfo.files[0].name;
+        loadRentLocationByFile(file);
+    }
+
+    function workLocationSelected(e) {
+        workAddress = e.poi.name;
+        loadWorkLocation();
+    }
+
+    function loadWorkMarker(x, y, locationName) {
+        workMarker = new AMap.Marker({
+            map: map,
+            title: locationName,
+            icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_r.png',
+            position: [x, y]
+
+        });
+    }
+
+
+    function loadWorkRange(x, y, t, color, v) {
+        arrivalRange.search([x, y], t, function(status, result) {
+            if (result.bounds) {
+                for (var i = 0; i < result.bounds.length; i++) {
+                    var polygon = new AMap.Polygon({
+                        map: map,
+                        fillColor: color,
+                        fillOpacity: "0.4",
+                        strokeColor: color,
+                        strokeOpacity: "0.8",
+                        strokeWeight: 1
+                    });
+                    polygon.setPath(result.bounds[i]);
+                    polygonArray.push(polygon);
+                }
+            }
+        }, {
+            policy: v
+        });
+    }
+
+    function addMarkerByAddress(address) {
+        var geocoder = new AMap.Geocoder({
+            city: "北京",
+            radius: 1000
+        });
+        geocoder.getLocation(address, function(status, result) {
+            if (status === "complete" && result.info === 'OK') {
+                var geocode = result.geocodes[0];
+                rentMarker = new AMap.Marker({
+                    map: map,
+                    title: address,
+                    icon: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b.png',
+                    position: [geocode.location.getLng(), geocode.location.getLat()]
+                });
+                rentMarkerArray.push(rentMarker);
+
+                rentMarker.content = "<div>房源：<a target = '_blank' href='http://bj.58.com/pinpaigongyu/?key=" + address + "'>" + address + "</a><div>"
+                rentMarker.on('click', function(e) {
+                    infoWindow.setContent(e.target.content);
+                    infoWindow.open(map, e.target.getPosition());
+                    if (amapTransfer) amapTransfer.clear();
+                    amapTransfer = new AMap.Transfer({
+                        map: map,
+                        policy: AMap.TransferPolicy.LEAST_TIME,
+                        city: "北京市",
+                        panel: 'transfer-panel'
+                    });
+                    amapTransfer.search([{
+                        keyword: workAddress
+                    }, {
+                        keyword: address
+                    }], function(status, result) {})
+                });
+            }
+        })
+    }
+
+    function delWorkLocation() {
+        if (polygonArray) map.remove(polygonArray);
+        if (workMarker) map.remove(workMarker);
+        polygonArray = [];
+    }
+
+    function delRentLocation() {
+        if (rentMarkerArray) map.remove(rentMarkerArray);
+        rentMarkerArray = [];
+    }
+
+    function loadWorkLocation() {
+        delWorkLocation();
+        var geocoder = new AMap.Geocoder({
+            city: "北京",
+            radius: 1000
+        });
+
+        geocoder.getLocation(workAddress, function(status, result) {
+            if (status === "complete" && result.info === 'OK') {
+                var geocode = result.geocodes[0];
+                x = geocode.location.getLng();
+                y = geocode.location.getLat();
+                loadWorkMarker(x, y);
+                loadWorkRange(x, y, 60, "#3f67a5", vehicle);
+                map.setZoomAndCenter(12, [x, y]);
+            }
+        })
+    }
+
+    function loadRentLocationByFile(fileName) {
+        delRentLocation();
+        fileName = "/E:/self/work/dianping/rent.csv"
+        console.log(fileName);
+        var rent_locations = new Set();
+        var rent_title = new Set();
+        var rent_url = new Set();
+        $.get(fileName, function(data) {
+            data = data.split("\n");
+            data.forEach(function(item, index) {
+                console.log(item)
+                var itemList = item.split()
+                rent_title.add(itemList[0]);
+                rent_url.add(itemList[1]);
+                rent_locations.add(itemList[2]);
+            });
+            rent_locations.forEach(function(element, index) {
+                addMarkerByAddress(element);
+            });
+        });
+    }
+
+    </script>
+</body>
+</html>
+
+		</div>
+	</div>
+</div>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zhangxiaojun92">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/zhang-xiao-jun-68">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2016  XIAOJUN ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>
