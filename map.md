@@ -6,8 +6,8 @@ header-img: "img/semantic.jpg"
 ---
 
 
-<html>
-<head>
+
+<div>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
@@ -59,9 +59,9 @@ header-img: "img/semantic.jpg"
         width: 250px;
     }
     </style>
-</head>
+</div>
 
-<body>
+<div>
     <div id="container"></div>
     <div class="control-panel">
         <div class="control-entry">
@@ -236,5 +236,5 @@ header-img: "img/semantic.jpg"
     }
 
     </script>
-</body>
-</html>
+</div>
+
